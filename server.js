@@ -20,7 +20,7 @@ app.post("/contact", async (req, res) => {
 
   try {
     await resend.emails.send({
-      from: "QualiHub <onboarding@resend.dev>",
+      from: "QualiHub <rh@qualihub.online>",
       to: ["rh@qualihub.online"],
       reply_to: email,
       subject: "Novo contato pelo site",
